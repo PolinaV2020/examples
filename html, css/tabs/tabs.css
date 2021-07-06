@@ -1,0 +1,19 @@
+.article {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+
+.article:target {
+  display: block;
+}
+
+.article-paragraph {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
